@@ -5,7 +5,7 @@
   padding: 0;
   font-family: Lato;
 }
-header {
+header,#hot-deal {
   background-color: rgba(229, 84, 115, 0.1);
 }
 
@@ -114,6 +114,24 @@ button:hover {
     text-decoration-line: underline;
 }
 /* hot deal styles */
+#hot-deal{
+    margin-top: 100px;
+}
 #hot-deal .pinkish{
     color: #E55473;
+}
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.hot-deal-img{
+    margin: 100px auto;
+}
+.hot-deal-img img{
+    width: 100%;
+}
+.hot-deal-text{
+    text-align: center;
+    margin: 200px auto;
 }
