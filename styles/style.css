@@ -113,3 +113,7 @@ button:hover {
     line-height: 35px; /* 145.833% */
     text-decoration-line: underline;
 }
+/* hot deal styles */
+#hot-deal .pinkish{
+    color: #E55473;
+}
